@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Namorada</title>
+    <style>
+        body {
+            background-color: #f8e0e6;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            color: #5a3e5c;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-top: 20px;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin: 20px;
+            line-height: 1.6;
+        }
+
+        .heart {
+            color: red;
+            font-size: 2em;
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 1em;
+            color: #5a3e5c;
+        }
+
+        .button {
+            background-color: #f7a1b1;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #e59bb3;
+        }
+
+        /* Centralizando a imagem */
+        img.main-img {
+            max-width: 80%;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        /* Estilo para a foto Polaroid no canto */
+        .polaroid {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            width: 180px;
+            height: 240px;
+            background-color: white;
+            border: 10px solid #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding-bottom: 10px;
+            transform: rotate(-15deg); /* Dá um leve giro na imagem para o efeito Polaroid */
+        }
+
+        .polaroid img {
+            width: 100%;
+            height: auto;
+            border-bottom: 10px solid #f8e0e6;
+        }
+
+        .polaroid p {
+            font-size: 1em;
+            color: #5a3e5c;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Para Minha Princesa</h1>
+    <p>Eu só queria te lembrar o quanto você é importante para mim. 💖</p>
+    <p>Cada momento ao seu lado é especial, e eu sou muito grato por ter você em minha vida.</p>
+    <p class="heart">❤️</p>
+    <p>Te amo mais do que palavras podem expressar.</p>
+    
+    <a href="javascript:void(0)" class="button" onclick="alert('Você é a melhor coisa que me aconteceu!')">Clique Aqui para um Beijo Virtual!</a>
+
+    <!-- Foto estilo Polaroid no canto -->
+    <div class="polaroid">
+        <img src="nãoabrir.jpeg" alt="Foto Polaroid">
+        <p>Você é tudo para mim!</p>
+    </div>
+
+    <div class="footer">
+        <p>Com amor, de quem te adora.</p>
+    </div>
+</body>
+</html>
